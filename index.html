@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header__enlace" href="https://www.aluracursos.com/">
+            <img class="header__enlace-logo" src="assets/images/logo.png" alt="Logo alura">
+        </a>
+        <h1 class="header__titulo">Encriptador de Texto</h1>
+    </header>
+
+    <main class="main">
+
+        <section class="main__izquierda">
+            <br>
+            <textarea class="main__izquierda-texto" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="main__izquierda-atencion">
+                <h6><i class="fa-solid fa-circle-exclamation"></i> Sólo letras minúsculas y sin acentos</h6>
+            </div>
+            
+            <div class="main__izquierda-botones">
+                <button class="main__btn-encriptar">Encriptar</button>
+                <button class="main__btn-desencriptar">Desencriptar</button>
+            </div>
+            
+        </section>
+            
+        <section class="main__derecha">
+            <textarea class="main__derecha-mensaje" cols="20" rows="10"></textarea>
+            <div class="main_derecha-contenedor">
+                <button class="main__derecha-btn-copiar">Copiar</button>
+            </div>
+        </section>
+           
+    </main>
+
+
+    <script src="./main.js">
+
+    </script>
+</body>
+</html>
