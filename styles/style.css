@@ -114,6 +114,12 @@ header{
     height: 7vh;
     border-radius: 24px;
     border: none;
+    cursor: pointer;
+}
+
+.main__btn-encriptar:hover{
+    background-color: #3c8ef9;
+    border: 1px solid #0A3871;
 }
 
 .main__btn-desencriptar, .main__derecha-btn-copiar{
@@ -123,6 +129,7 @@ header{
     height: 7vh;
     border-radius: 24px;
     border: 1px solid #0A3871;
+    cursor: pointer;
 }
 
 .main__derecha-btn-copiar{
@@ -130,6 +137,9 @@ header{
     width:65%;
 }
 
+.main__btn-desencriptar:hover ,.main__derecha-btn-copiar:hover{
+    background-color: #fff;
+}
 
 .main_derecha-contenedor{
     text-align: center;
